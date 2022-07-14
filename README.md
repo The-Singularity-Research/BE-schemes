@@ -14,8 +14,9 @@ into associated graded algebras by Schur functors.
 ---
 The decomposition of monomial ideas and standard monomial theory is explained in the following articles
 
-1. [SEMI-INVARIANTS FOR GENTLE STRING ALGEBRAS]()
-2. 
-3. 
+1. [Semi-invariants for Gentle String Algebras](https://github.com/The-Singularity-Research/BE-schemes/blob/main/1106.0774.pdf)
+2. [Standard Monomial Theory](https://github.com/The-Singularity-Research/BE-schemes/blob/main/%5BEncyclopaedia%20of%20Mathematical%20Sciences%20%20137%5D%20Lakshmibai%20V.%2C%20Raghavan%20K.N.%20-%20Standard%20monomial%20theory_%20Invariant%20theoretic%20approach%20(2008%2C%20Springer)%20-%20libgen.lc.pdf)
+
+3. [Monomial Ideals and their Decompositions](https://github.com/The-Singularity-Research/BE-schemes/blob/main/%5BUniversitext%5D%20W.%20Frank%20Moore%2C%20Mark%20Rogers%2C%20Sean%20Sather-Wagstaff%20-%20Monomial%20Ideals%20and%20Their%20Decompositions%20(2018%2C%20Springer%20International%20Publishing)%20-%20libgen.lc.pdf)
 
 These can be implemented in Macaulay2 in order to decompose the structure sheaf of a representation scheme of surface algebra into standard monomials and corresponding Schur functors giving an equivariant basis for the associated graded alegbra. This equivariant basis can be used as additional feature in a group equivariant neural network where the symmetry group is the full general linear group $\mathbf{GL}(n)$. Since the methods are independent of the field of coefficients and the methods works and is defined over the integers $\mathbb{Z}$, this provides the ability to extend such neural network architectures to arbitrary coefficients rings/fields. This could be useful for studying $p$-adic AdS/CFT and string theory, quantum computing circuits that model the AdS/CFT correspondence, and other $p$-adic and ring theoretic sensitive phenomena. 
