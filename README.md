@@ -1,5 +1,5 @@
 # BE-schemes
-Compute the associated graded algebra and Schur functors to obtain an equivariant basis for Buchsbaum-Eisenbud varieties of complexes
+Compute the associated graded algebra and Schur functors to obtain an equivariant standard monomial basis for structure sheaf of the Buchsbaum-Eisenbud varieties of complexes
 ---
 This will compute the associated graded algebra in terms of Schur functors of a Buchsbaum-Eisenbud variety of complexes
 in order to obtain an equivariant basis for the varieties. This equivariance can be used in the construction of 
