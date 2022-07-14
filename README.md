@@ -9,3 +9,13 @@ This may also prove useful in a geometric complexity theory context related to t
 the [paper](https://arxiv.org/abs/1110.3653) and the [paper](https://arxiv.org/abs/1106.0774) for an explanation of how the structure sheaf for
 representation schemes of surface algebras can be regarded as a semigroup ring with standard monomial theory and how they can be decomposed
 into associated graded algebras by Schur functors. 
+
+## Decomposition of Monomial Ideas
+---
+The decomposition of monomial ideas and standard monomial theory is explained in the following articles
+
+1. [SEMI-INVARIANTS FOR GENTLE STRING ALGEBRAS]()
+2. 
+3. 
+
+These can be implemented in Macaulay2 in order to decompose the structure sheaf of a representation scheme of surface algebra into standard monomials and corresponding Schur functors giving an equivariant basis for the associated graded alegbra. This equivariant basis can be used as additional feature in a group equivariant neural network where the symmetry group is the full general linear group $\mathbf{GL}(n)$. Since the methods are independent of the field of coefficients and the methods works and is defined over the integers $\mathbb{Z}$, this provides the ability to extend such neural network architectures to arbitrary coefficients rings/fields. This could be useful for studying $p$-adic AdS/CFT and string theory, quantum computing circuits that model the AdS/CFT correspondence, and other $p$-adic and ring theoretic sensitive phenomena. 
